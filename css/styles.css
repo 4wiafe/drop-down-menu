@@ -79,6 +79,11 @@ header {
   padding: 20px;
   width: 100%;
   background: #f5f3f3;
+  display: none;
+}
+
+.nav-container.visibility {
+  display: block;
 }
 
 .nav {
