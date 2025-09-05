@@ -23,6 +23,8 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 10;
 }
 
@@ -48,4 +50,32 @@ header {
   background: #fff;
   border-radius: 3px;
   cursor: pointer;
+}
+
+.nav-container {
+  margin-top: 60px;
+  padding: 20px;
+  width: 100%;
+  background: #f5f3f3;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-item a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #ee69ee;
 }
