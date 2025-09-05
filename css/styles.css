@@ -79,3 +79,11 @@ header {
   cursor: pointer;
   color: #ee69ee;
 }
+
+.link-item {
+  transition: all 0.3s ease;
+}
+
+.link-item:hover {
+  transform: translateY(-5px) scale(1.1);
+}
