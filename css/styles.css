@@ -16,11 +16,14 @@ body {
 
 header {
   width: 100%;
-  border: 1px solid #333;
+  background: #ee69ee;
+  color: #fff;
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 10;
 }
 
 .menu-button-container {
@@ -42,7 +45,7 @@ header {
 .hamburger span {
   width: 100%;
   height: 4px;
-  background: #333;
+  background: #fff;
   border-radius: 3px;
   cursor: pointer;
 }
