@@ -6,12 +6,20 @@
 
 html {
   font-size: 16px;
+  height: 100%;
 }
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  height: 10vh;
+  min-height: 100vh;
+  height: 100%;
   width: 100vw; 
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 header {
